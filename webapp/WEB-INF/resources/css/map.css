@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+/* Visible image map container */
+/* Visible image map container */
+#m-east {
+position: relative;
+width: 950px;
+height: 1050px;
+background: #fff url(../images/map.png) no-repeat;
+margin: 2em auto;
+padding: 0;
+}
+
+/* List styling */
+#m-east li {
+display: block;
+position: absolute;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+/* Link styling */
+#m-east a {
+display: block;
+text-indent: -9999px;
+text-decoration: none;
+outline: none;
+cursor: default;
+}
+
+
+
+/* Country position on the image (z-index goes here) */
+#jk {left: 205px; top: 10px; z-index: 10;}
+#hp {left: 280px; top: 140px; z-index: 10;}
+#pun {left: 225px; top: 170px;}
+#uk{left: 335px; top: 200px;}
+#raj{left: 83px; top: 240px; z-index:10;}
+#upr{left: 318px; top: 241px; z-index:10;}
+#hrn{left: 239px; top: 225px;}
+#hrn{left: 239px; top: 225px; z-index:10;}
+#mp{left: 205px; top: 347px; z-index:9;}
+#gj{left: 37px; top: 425px; z-index:10;}
+#bh{left: 510px; top: 335px; z-index:10;}
+#jh{left: 510px; top: 395px;}
+#ch{left: 415px; top: 462px; z-index:10;}
+#mh{left: 160px; top: 530px;}
+#od{left: 450px; top: 500px;}
+#wb{left: 590px; top: 340px;}
+#kt{left: 192px; top: 650px; z-index:40;}
+#kr{left: 200px; top: 840px; z-index:20;}
+#tn{left: 275px; top: 822px;}
+#sk{left: 629px; top: 309px;}
+#asm{left: 707px; top: 309px; z-index:10;}
+#arn{left: 750px; top: 260px;}
+#mgl{left: 710px; top: 364px; z-index:10;}
+#tpr{left: 733px; top: 408px;}
+#mzr{left: 792px; top: 432px;}
+#mnp{left: 812px; top: 385px; z-index:20;}
+#ng{left: 815px; top: 335px; z-index:10;}
+#goa{left: 190px; top: 730px; z-index:50;}#tlg{left: 252px; top: 600px; z-index:30;}
+#apd{left: 292px; top: 633px; z-index:40;}
+
+/* Country width & height */
+#jk a {width: 220px; height: 170px;}
+#hp a {width: 100px; height: 110px;}
+#pun a {width: 100px; height: 100px;}
+#uk a{ width:105px; height:105px;}
+#raj a{ width:280px; height:260px;}
+#upr a{ width:226px; height:234px;}
+#hrn a{ width:100px; height:220px;}
+#mp a{ width:300px; height:210px;}
+#gj a{ width:210px; height:170px;}
+#bh a{ width:160px; height:120px;}
+#jh a{ width:145px; height:135px;}
+#ch a{ width:140px; height:230px;}
+#mh a{ width:270px; height:225px;}
+#od a{ width:200px; height:185px;}
+#wb a{ width:140px; height:298px;}
+#kt a{ width:160px; height:250px;}
+#kr a{ width:130px; height:175px;}
+#tn a{ width:170px; height:245px;}
+#sk a{ width:50px; height:50px;}
+#asm a{ width:200px; height:153px;}
+#arn a{ width:185px; height:150px;}
+#mgl a{ width:94px; height:61px;}
+#tpr a{ width:71px; height:80px;}
+#mzr a{ width:55px; height:90px;}
+#mnp a{ width:58px; height:72px;}
+#ng a{ width:72px; height:92px;}
+#goa a{ width:70px; height:70px;}#tlg a{ width:271px; height:227px;}
+#apd a{ width:282px; height:231px;}
+
+/* Country hover image position */
+#jk a:hover {background: url(../images/region/map.png) -170px -3px no-repeat; cursor:pointer;}
+#hp a:hover {background: url(../images/region/map.png) -251px -197px no-repeat; cursor:pointer;}
+#pun a:hover {background: url(../images/region/map.png) -150px -190px no-repeat; cursor:pointer;}
+#uk a:hover {background: url(../images/region/map.png) -369px -200px no-repeat; cursor:pointer;}
+#raj a:hover {background: url(../images/region/map.png) -20px -305px no-repeat; cursor:pointer;}
+#upr a:hover {background: url(../images/region/map.png) -425px -307px no-repeat; cursor:pointer;}
+#hrn a:hover {background: url(../images/region/map.png) -300px -330px no-repeat; cursor:pointer;}
+#mp a:hover {background: url(../images/region/map.png) -300px -530px no-repeat; cursor:pointer;}
+#gj a:hover {background: url(../images/region/map.png) -1px -562px no-repeat; cursor:pointer;}
+#bh a:hover {background: url(../images/region/map.png) -668px -308px no-repeat; cursor:pointer;}
+#jh a:hover {background: url(../images/region/map.png) -670px -456px no-repeat; cursor:pointer;}
+#ch a:hover {background: url(../images/region/map.png) -641px -616px no-repeat; cursor:pointer;}
+#mh a:hover {background: url(../images/region/map.png) 3px -760px no-repeat; cursor:pointer;}
+#od a:hover {background: url(../images/region/map.png) -710px -843px no-repeat; cursor:pointer;}
+#wb a:hover {background: url(../images/region/map.png) -840px -560px no-repeat; cursor:pointer;}
+#kt a:hover {background: url(../images/region/map.png) -42px -990px no-repeat; cursor:pointer;}
+#kr a:hover {background: url(../images/region/map.png) 20px -1311px no-repeat; cursor:pointer;}
+#tn a:hover {background: url(../images/region/map.png) -167px -1305px no-repeat; cursor:pointer;}
+#sk a:hover {background: url(../images/region/map.png) -865px -298px no-repeat; cursor:pointer;}
+#asm a:hover {background: url(../images/region/map.png) -995px -310px no-repeat; cursor:pointer;}
+#arn a:hover {background: url(../images/region/map.png) -1096px -138px no-repeat; cursor:pointer;}
+#mgl a:hover {background: url(../images/region/map.png) -856px -427px no-repeat; cursor:pointer;}
+#tpr a:hover {background: url(../images/region/map.png) -979px -430px no-repeat; cursor:pointer;}
+#mzr a:hover {background: url(../images/region/map.png) -1080px -474px no-repeat; cursor:pointer;}
+#mnp a:hover {background: url(../images/region/map.png) -1159px -472px no-repeat; cursor:pointer;}
+#ng a:hover {background: url(../images/region/map.png) -1263px -377px no-repeat; cursor:pointer;}
+#goa a:hover {background: url(../images/region/map.png) 2px -976px no-repeat; cursor:pointer;}#tlg a:hover {background: url(../images/region/map.png) -373px -1047px no-repeat; cursor:pointer;}
+#apd a:hover {background: url(../images/region/map.png) -560px -1193px no-repeat; cursor:pointer;}

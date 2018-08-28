@@ -1,0 +1,162 @@
+@media only screen and (min-width: 1600px) {
+
+}
+/* Medium Layout: 1280px. */
+@media(max-width: 1920px)   {
+    #prev { left: -35% !important;}
+    #next { right: -35% !important;}
+    }
+@media only screen and (min-device-width: 992px) and (max-device-width: 1024px) {
+#prev {  left: -460px !important;}
+    #next { right: -460px !important;}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px)  {
+    #prev { left: -485px !important;}
+    #next { right: -486px !important;}
+    }
+
+@media only screen and  (max-width: 1024px) {
+.navbar-default .navbar-brand{width: 90%;}
+.header .navbar-nav li { height: 70px;  width: 70px;}
+.news{width: 80%;}
+.countdown li{margin-right: 24px;}
+.upcoming-campaign .event-info{padding: 0 1px 10px;}
+#prev {left: -45%;}
+#next {right: -45.8%;}
+.countdown-wrapper{margin-bottom: 10px;}
+.event-location-map{margin-top: -60px;}
+.followus ul li{margin-right: 10px;}
+}
+
+@media(max-width:768px)
+{
+	#next { right: -56.8%;}
+	#prev {left: -56.8%;}
+@media (max-width: 990px) {
+  .mobile_display{display: block;}
+  .event-location-map {margin-top: -60px;}
+  .party-logo1 img{width: 50%;}
+  .party-logo1{top:0px; left: 0px;}
+  .battleground-details {  margin-top: 20px;    margin-bottom: 20px;}
+  .navbar-header {float: none;}
+  .navbar-left,.navbar-right {float: none !important;}
+  .navbar-toggle {display: block;}
+  .navbar-collapse {border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+  .navbar-fixed-top {top: 0;border-width: 0 0 1px;}
+  .navbar-collapse.collapse {display: none!important;}
+  .navbar-nav {margin-top: 7.5px;}
+  .navbar-nav>li {float: none;}
+  .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px;}
+  .collapse.in{display:block !important;}
+  .header-select{float: right;}
+  .collapse,.navbar-collapse{margin-top: 53px;}
+  .header .navbar-nav li{width: 100%;}
+  .header .navbar-nav li a{text-align: center;}
+  .header .navbar-nav li a span{display: inline; margin-left: 10px;}
+  .header .navbar-nav li a img{margin: 0px;display: inline; }
+  .navbar-nav{margin-top: 0px;}
+  .header .navbar-nav li{height:60px;padding: 10px 0px;}
+  #m-east{display: none;}
+  .mobiledisplay{display: block;}
+.single-event-header img{max-width: inherit; min-height: 400px;}
+.any-complaint h4{line-height: 90px; margin: 0px;}
+.any-question h4{line-height: 90px; margin: 0px;}
+.followus{text-align: center;}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.header-select{float: left; margin: 20px 0 8px 0px;    width: 100%;}
+.pod{margin-top: 60px; margin-bottom: 50px;}
+.complaints-section .complaints-img{margin-bottom: 20px;}
+#pager{margin-left: -25px;}
+#pollclick img{margin: 0 auto; display: initial;}
+.change-const{margin-bottom: 50px;}
+.select-state{float: none !important;}
+.battleground-bottom-content select{margin-bottom: 10px;}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .battleground-bottom-content select{margin-bottom: 10px;}
+  #pollclick img{margin: 0 auto; display: initial;}
+  .change-const{margin-bottom: 50px;}
+  .select-state{float: none !important;}
+  .index_blog_img{position: relative;margin-top: 0px;margin-left:0px;}
+  .header-select{float: left; margin: 20px 0 8px 0px;    width: 100%;}
+  .party-logo img{width: 33%; top:0px; left:0px;}
+  .schedulestep .col-xs-2{padding: 0px;}
+  .campaign-content .campaign-scoop h2{font-size: 33px;}
+  .navbar-default .navbar-brand{width:75%;}
+    #m-east{display: none;}
+    .inner-battleground-details .battleground-select{width: 85%; margin-bottom: 10px;}
+.battle-homeicon{margin: 0 auto;margin-top: 15px;}
+.complaints-section .complaints-img{margin-bottom: 20px;}
+#prev, #next{background: none;}
+#pager{margin-left: -45px;}
+.pod{margin-top: 60px; margin-bottom: 50px;}
+.header-select{float: right;}
+.collapse,.navbar-collapse{margin-top: 53px;}
+.header .navbar-nav li{width: 100%;}
+.header .navbar-nav li a{text-align: center;}
+.header .navbar-nav li a span{display: inline; margin-left: 10px;}
+.header .navbar-nav li a img{margin: 0px;display: inline; }
+.navbar-nav{margin-top: 0px;}
+.header .navbar-nav li{height:60px;padding: 10px 0px;}
+.carousel-caption p{display: none;}
+.carousel-control span img{top:20%;}
+.carousel-caption{ position: relative; background: rgba(236,141,59,1);}
+.carousel-caption h3{margin: 0px; padding: 10px;}
+.footer .footer_header{width: 100%;text-align: center;}
+.news{width:95%;margin-right: 10px;}
+}
+
+@media only screen and (max-width: 736px) {
+.battleground-details {  margin-top: 20px;    margin-bottom: 20px;}
+}
+
+@media (max-width:667px){
+
+}
+
+@media (max-width:640px){
+
+}
+
+@media (max-width:568px){
+.battleground-head {      font-size: 40px;}
+
+}
+
+@media (max-width:480px){
+.battleground-head { font-size: 30px;  line-height: 45px;}
+}
+
+@media (max-width: 479px) {
+    .campaign-scoop {padding: 10px !important;}
+    .campaign-scoop .title {line-height: 20px;font-weight: 400;}
+    .campaign-scoop .start-date {font-size: 16px;line-height: 24px;font-weight: 400;margin-bottom: 15px !important;}
+    .countdown li {margin-right: 15px !important;}
+    .countdown li span {font-size: 18px;line-height: 30px;width: 30px;height: 30px;}
+    .countdown li span::after {width: 30px;height: 30px;}
+    .countdown li p {font-weight: 400;margin-top: 6px;font-size: 8px;}
+    .campaign-scoop address {font-size: 13px !important;line-height: 20px !important;font-weight: 400 !important;}
+}
+
+@media (max-width:414px){
+.battleground-select{width: 100%;}
+.battleground-head { font-size: 30px; line-height: 30px;  margin-left: 0; margin-top: 15px;}
+.battle-link a{display: inline-block; margin-bottom: 10px;float: left !important; margin-right: 10px;}
+.battle-link span{float: left !important;}
+}
+@media (max-width:375px){
+
+}
+
+@media (max-width:360px){
+
+}
+@media (max-width:320px){
+    .navbar-brand>img{width: 86%;}
+.campaign-scoop{top:46%;}
+.schedulestep .step{width: 40px; height: 40px; line-height: 40px; font-size: 24px;}
+}
